@@ -204,7 +204,6 @@ tailwind.config = {
       <article class="card lg:col-span-3 grid md:grid-cols-2 rounded-2xl border border-line bg-surface overflow-hidden">
         <div class="relative min-h-[240px] bg-gradient-to-br from-[#2a2622] via-[#1a1a1c] to-[#0F172A] p-8 flex items-center justify-center" role="img">
           
-          <!-- IMAGEM REAL AQUI -->
           <img src="images/capaarquitetura.png" alt="Print do site Studio Atelier" class="w-full max-w-md rounded-xl shadow-2xl border border-line hover:scale-105 transition-transform duration-500 object-cover">
           
         </div>
@@ -214,16 +213,19 @@ tailwind.config = {
           <p class="mt-3 text-mute">Portfólio imersivo e visual para escritório de arquitetura e design de interiores, com grade de projetos que deixa as imagens protagonizarem.</p>
           <p class="mt-4 text-sm text-mute">Projeto de demonstração.</p>
           
-          <!-- Cole o seu link da Vercel aqui no href onde está o # -->
           <a href="https://demo-arquitetura-mocha.vercel.app/" target="_blank" rel="noopener" class="btn btn-ghost mt-6 self-start inline-flex border border-line px-5 py-2.5 rounded-xl text-sm">Visitar Projeto</a>
         </div>
       </article>
+
+    </div> <!-- FECHA O GRID DO PORTFÓLIO -->
+  </div> <!-- FECHA O ALINHAMENTO DO PORTFÓLIO -->
+</section> <!-- FECHA A SEÇÃO DO PORTFÓLIO -->
 
 <!-- METODOLOGIA -->
 <section id="metodologia" class="py-20 border-t border-line">
   <div class="max-w-6xl mx-auto px-5">
     <h2 class="font-display font-bold text-3xl sm:text-4xl tracking-tight">Como funciona, em 4 etapas.</h2>
-    <ol class="mt-12 grid md:grid-cols-4 gap-5">
+    <ol class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
       <li class="rounded-2xl border border-line bg-surface p-6">
         <span class="flex items-center justify-center w-9 h-9 rounded-full bg-em text-bg font-display font-bold">1</span>
         <h3 class="mt-4 font-display font-bold text-lg">Briefing e Estratégia</h3>
@@ -247,7 +249,6 @@ tailwind.config = {
     </ol>
   </div>
 </section>
-</main>
 
 <!-- RODAPÉ / CONTATO -->
 <footer id="contato" class="border-t border-line bg-gradient-to-b from-bg to-[#0b1222]">
