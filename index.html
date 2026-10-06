@@ -6,9 +6,6 @@
 <title>EB Sites Profissionais | Desenvolvedor Front-end para sites de alta conversão</title>
 <meta name="description" content="Landing pages e sites institucionais rápidos, responsivos e focados em conversão para advocacia, arquitetura, infoprodutores e empresas.">
 <meta name="theme-color" content="#0F172A">
-<meta property="og:title" content="EB Sites Profissionais | Front-end de alta performance">
-<meta property="og:description" content="Sites rápidos, responsivos e desenhados para converter visitas em clientes.">
-<meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230F172A'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='%2310B981' font-family='monospace' font-weight='bold'>E</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,15 +40,12 @@ tailwind.config = {
 </head>
 <body class="font-sans antialiased leading-relaxed">
 
-<!-- HEADER -->
+<!-- HEADER CORRETO DO PORTFÓLIO -->
 <header class="fixed top-0 inset-x-0 z-50 border-b border-line/70 bg-bg/85 backdrop-blur">
   <nav class="max-w-6xl mx-auto px-5 h-20 flex items-center justify-between" aria-label="Principal">
-    
-    <!-- Logo Atualizada -->
     <a href="#inicio" class="flex items-center decoration-none">
         <img src="images/logu.png" alt="EB Sites Profissionais" class="h-16 sm:h-20 w-auto object-contain">
     </a>
-
     <ul class="hidden md:flex items-center gap-8 text-sm text-mute">
       <li><a class="hover:text-ice transition-colors" href="#inicio">Início</a></li>
       <li><a class="hover:text-ice transition-colors" href="#especialidades">Especialidades</a></li>
@@ -84,7 +78,7 @@ tailwind.config = {
       <h1 class="hero-in font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-[1.05] tracking-tight">Transformo a sua ideia em um site de alto impacto que converte visitas em clientes.</h1>
       <p class="hero-in mt-6 text-lg text-mute max-w-xl">Desenvolvimento front-end de alta performance, com o rigor técnico da Engenharia Eletrônica: código limpo, carregamento rápido e interfaces pensadas para levar o visitante à ação.</p>
       <div class="hero-in mt-9 flex flex-wrap gap-4">
-        <a href="https://wa.me/5553984263004?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20sites" target="_blank" rel="noopener" class="btn btn-primary inline-flex items-center gap-2 bg-em text-bg font-medium px-7 py-3.5 rounded-xl">Solicitar Orçamento</a>
+        <a href="https://wa.me/5553984263004" target="_blank" rel="noopener" class="btn btn-primary inline-flex items-center gap-2 bg-em text-bg font-medium px-7 py-3.5 rounded-xl">Solicitar Orçamento</a>
         <a href="#portfolio" class="btn btn-ghost inline-flex items-center border border-line px-7 py-3.5 rounded-xl">Ver projetos</a>
       </div>
       <p class="hero-in mt-8 text-sm text-mute">Advocacia &bull; Arquitetura &bull; Infoprodutores &bull; Empresas</p>
@@ -167,59 +161,49 @@ tailwind.config = {
     <div class="mt-12 grid lg:grid-cols-3 gap-6">
 
       <!-- Case 1 -->
-<article class="card lg:col-span-3 grid md:grid-cols-2 rounded-2xl border border-line bg-surface overflow-hidden">
-  <div class="relative min-h-[240px] bg-gradient-to-br from-[#0b3b3f] via-[#0F172A] to-[#0a2a22] p-8 flex items-center justify-center" role="img">
-    
-    <!-- IMAGEM REAL AQUI -->
-    <img src="images/print-vittas.png" alt="Print do site VittasTech" class="w-full max-w-md rounded-xl shadow-2xl border border-line hover:scale-105 transition-transform duration-500 object-cover">
-    
-  </div>
-  <div class="p-8 flex flex-col justify-center">
-    <span class="text-sm text-em font-medium">Projeto em destaque</span>
-    <h3 class="mt-2 font-display font-bold text-2xl">VittasTech</h3>
-    <p class="mt-3 text-mute">Site corporativo institucional de alta exigência técnica, com navegação fluida, design moderno e comunicação clara da proposta da empresa.</p>
-    <a href="https://vittastech.com.br" target="_blank" rel="noopener" class="btn btn-ghost mt-6 self-start inline-flex border border-line px-5 py-2.5 rounded-xl text-sm">Visitar vittastech.com.br</a>
-  </div>
-</article>
+      <article class="card lg:col-span-3 grid md:grid-cols-2 rounded-2xl border border-line bg-surface overflow-hidden">
+        <div class="relative min-h-[240px] bg-gradient-to-br from-[#0b3b3f] via-[#0F172A] to-[#0a2a22] p-8 flex items-center justify-center" role="img">
+          <img src="images/print-vittas.png" alt="Print do site VittasTech" class="w-full max-w-md rounded-xl shadow-2xl border border-line hover:scale-105 transition-transform duration-500 object-cover">
+        </div>
+        <div class="p-8 flex flex-col justify-center">
+          <span class="text-sm text-em font-medium">Projeto em destaque</span>
+          <h3 class="mt-2 font-display font-bold text-2xl">VittasTech</h3>
+          <p class="mt-3 text-mute">Site corporativo institucional de alta exigência técnica, com navegação fluida, design moderno e comunicação clara da proposta da empresa.</p>
+          <a href="https://vittastech.com.br" target="_blank" rel="noopener" class="btn btn-ghost mt-6 self-start inline-flex border border-line px-5 py-2.5 rounded-xl text-sm">Visitar vittastech.com.br</a>
+        </div>
+      </article>
 
       <!-- Case 2 -->
-<article class="card lg:col-span-3 grid md:grid-cols-2 rounded-2xl border border-line bg-surface overflow-hidden">
-  <div class="relative min-h-[240px] bg-gradient-to-br from-[#1b2540] via-[#111a2e] to-[#2a2412] p-8 flex items-center justify-center md:order-2" role="img">
-    
-    <!-- IMAGEM REAL AQUI -->
-    <img src="images/print-macedo.png" alt="Print da Landing Page Macedo & Associados" class="w-full max-w-md rounded-xl shadow-2xl border border-line hover:scale-105 transition-transform duration-500 object-cover">
-    
-  </div>
-  <div class="p-8 flex flex-col justify-center">
-    <span class="text-sm text-em font-medium">Advocacia</span>
-    <h3 class="mt-2 font-display font-bold text-2xl">Macedo &amp; Associados</h3>
-    <p class="mt-3 text-mute">Landing page premium para escritório de advocacia focado em direito empresarial, desenhada para transmitir autoridade e captar clientes.</p>
-    <p class="mt-6 text-sm text-mute">Projeto de demonstração.</p>
-    <a href="https://demoadvocacia.vercel.app/" target="_blank" rel="noopener" class="btn btn-ghost mt-6 self-start inline-flex border border-line px-5 py-2.5 rounded-xl text-sm">Visitar demoadvocacia.vercel.app/</a>
-
-  </div>
-</article>
+      <article class="card lg:col-span-3 grid md:grid-cols-2 rounded-2xl border border-line bg-surface overflow-hidden">
+        <div class="relative min-h-[240px] bg-gradient-to-br from-[#1b2540] via-[#111a2e] to-[#2a2412] p-8 flex items-center justify-center md:order-2" role="img">
+          <img src="images/print-macedo.png" alt="Print da Landing Page Macedo & Associados" class="w-full max-w-md rounded-xl shadow-2xl border border-line hover:scale-105 transition-transform duration-500 object-cover">
+        </div>
+        <div class="p-8 flex flex-col justify-center">
+          <span class="text-sm text-em font-medium">Advocacia</span>
+          <h3 class="mt-2 font-display font-bold text-2xl">Macedo &amp; Associados</h3>
+          <p class="mt-3 text-mute">Landing page premium para escritório de advocacia focado em direito empresarial, desenhada para transmitir autoridade e captar clientes.</p>
+          <p class="mt-6 text-sm text-mute">Projeto de demonstração.</p>
+          <a href="https://demoadvocacia.vercel.app/" target="_blank" rel="noopener" class="btn btn-ghost mt-6 self-start inline-flex border border-line px-5 py-2.5 rounded-xl text-sm">Visitar demoadvocacia.vercel.app/</a>
+        </div>
+      </article>
 
       <!-- Case 3 -->
       <article class="card lg:col-span-3 grid md:grid-cols-2 rounded-2xl border border-line bg-surface overflow-hidden">
         <div class="relative min-h-[240px] bg-gradient-to-br from-[#2a2622] via-[#1a1a1c] to-[#0F172A] p-8 flex items-center justify-center" role="img">
-          
           <img src="images/capaarquitetura.png" alt="Print do site Studio Atelier" class="w-full max-w-md rounded-xl shadow-2xl border border-line hover:scale-105 transition-transform duration-500 object-cover">
-          
         </div>
         <div class="p-8 flex flex-col justify-center">
           <span class="text-sm text-em font-medium">Arquitetura e interiores</span>
           <h3 class="mt-2 font-display font-bold text-2xl">Studio Atelier</h3>
           <p class="mt-3 text-mute">Portfólio imersivo e visual para escritório de arquitetura e design de interiores, com grade de projetos que deixa as imagens protagonizarem.</p>
           <p class="mt-4 text-sm text-mute">Projeto de demonstração.</p>
-          
           <a href="https://demo-arquitetura-mocha.vercel.app/" target="_blank" rel="noopener" class="btn btn-ghost mt-6 self-start inline-flex border border-line px-5 py-2.5 rounded-xl text-sm">Visitar Projeto</a>
         </div>
       </article>
 
-    </div> <!-- FECHA O GRID DO PORTFÓLIO -->
-  </div> <!-- FECHA O ALINHAMENTO DO PORTFÓLIO -->
-</section> <!-- FECHA A SEÇÃO DO PORTFÓLIO -->
+    </div>
+  </div>
+</section>
 
 <!-- METODOLOGIA -->
 <section id="metodologia" class="py-20 border-t border-line">
@@ -249,18 +233,19 @@ tailwind.config = {
     </ol>
   </div>
 </section>
+</main>
 
 <!-- RODAPÉ / CONTATO -->
 <footer id="contato" class="border-t border-line bg-gradient-to-b from-bg to-[#0b1222]">
   <div class="max-w-6xl mx-auto px-5 py-20 text-center">
     <h2 class="font-display font-extrabold text-3xl sm:text-5xl tracking-tight">Pronto para modernizar o seu negócio?</h2>
     <p class="mt-4 text-mute text-lg">Conte sua ideia e receba uma proposta sob medida.</p>
-    <a href="https://wa.me/5553984263004?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20sites" target="_blank" rel="noopener" class="btn btn-primary mt-9 inline-flex items-center bg-em text-bg font-medium px-9 py-4 rounded-xl text-lg">Falar no WhatsApp</a>
+    <a href="https://wa.me/5553984263004" target="_blank" rel="noopener" class="btn btn-primary mt-9 inline-flex items-center bg-em text-bg font-medium px-9 py-4 rounded-xl text-lg">Falar no WhatsApp</a>
 
     <dl class="mt-14 grid sm:grid-cols-2 gap-5 max-w-2xl mx-auto text-left">
       <div class="rounded-2xl border border-line bg-surface p-5">
         <dt class="text-sm text-mute">WhatsApp</dt>
-        <dd class="mt-1 font-medium"><a class="hover:text-em transition-colors" href="https://wa.me/5553984263004?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20sites" target="_blank" rel="noopener">(53) 98426-3004</a></dd>
+        <dd class="mt-1 font-medium"><a class="hover:text-em transition-colors" href="https://wa.me/5553984263004" target="_blank" rel="noopener">(53) 98426-3004</a></dd>
       </div>
       <div class="rounded-2xl border border-line bg-surface p-5">
         <dt class="text-sm text-mute">E-mail</dt>
